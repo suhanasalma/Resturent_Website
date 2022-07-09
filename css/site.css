@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@700&family=Nunito+Sans:wght@300&display=swap');
+
+html{
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 300;
+   font-size: 36px;
+   
+}
+body{
+   max-width: 1327px;
+   margin: auto ;
+}
+
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Kreon', serif;
+   font-weight: 700;
+}
+
+header{
+   background-color: black;
+   text-align: right;
+   padding: .4rem;
+   font-size: .67rem;
+
+}
+header a{
+   text-decoration: none;
+   color: white;
+   padding: .3rem;
+}
+.main{
+   position: relative;
+   text-align: center;
+}
+.main img{
+   max-width: 100%;
+}
+
+.head_bar{
+   
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+
+}
+.head_bar h1, .head_bar p{
+   margin: 0;
+}
+
+.head_bar h1{
+   letter-spacing: 1rem;
+   font-size: 4rem;
+   text-indent: 1rem;
+   text-transform: uppercase;
+   line-height: 1em;
+}
+
+.destination{
+   text-align: center;
+
+}
+
+.destination h2{
+   margin: 0;
+}
+.Des_of_Food{
+   display: flow-root;
+}
+.right{
+   width: 50%;
+   float: right;
+}
+.left{
+   width: 50%;
+   float:left;
+}
+.Des_of_Food_div{
+   width: 50%;
+   display: inline-block;
+   
+}
+.Des_of_Food h2, .Des_of_Food p{
+   margin: 0;
+   padding-right: .67rem;
+   padding-left: .67rem;
+}
+
+footer{
+   background-color: black;
+   text-align: center;
+   padding: .4rem;
+   font-size: .67rem;
+   color:white;
+}
+
+article{
+   text-align: center;
+}
+.menu_list{
+   list-style-type: none;
+}
+.menu_head{
+   margin: 0;
+}
+.menu{
+   text-indent: -1rem;
+   margin-bottom: 1rem;
+}
+/* ul{
+   
+} */
